@@ -1,2 +1,4 @@
 
-console.log("Ravi Tech Academy Loaded");
+function startQuiz() {
+    alert("Welcome to Ravi Tech Academy 🚀");
+}
