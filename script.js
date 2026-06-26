@@ -1,26 +1,38 @@
-const question = {
-  question: "1. Which device converts AC to DC?",
-  A: "Transformer",
-  B: "Rectifier",
-  C: "Capacitor",
-  D: "Inductor",
-  answer: "B"
-};
+let currentQuestion = 0;
+let score = 0;
 
 function startQuiz() {
-  document.getElementById("quiz").style.display = "block";
+    document.getElementById("quiz").style.display = "block";
+    showQuestion();
+}
 
-  document.getElementById("question").innerText = question.question;
-  document.getElementById("A").innerText = question.A;
-  document.getElementById("B").innerText = question.B;
-  document.getElementById("C").innerText = question.C;
-  document.getElementById("D").innerText = question.D;
+function showQuestion() {
+    const q = questions[currentQuestion];
+
+    document.getElementById("question").innerText = q.question;
+    document.getElementById("A").innerText = q.A;
+    document.getElementById("B").innerText = q.B;
+    document.getElementById("C").innerText = q.C;
+    document.getElementById("D").innerText = q.D;
 }
 
 function checkAnswer(option) {
-  if (option === question.answer) {
-    alert("✅ Correct Answer!");
-  } else {
-    alert("❌ Wrong Answer!");
-  }
+
+    if(option === questions[currentQuestion].answer){
+        score++;
+        alert("✅ Correct Answer");
+    }else{
+        alert("❌ Wrong Answer");
+    }
+
+    currentQuestion++;
+
+    if(currentQuestion < questions.length){
+        showQuestion();
+    }else{
+        document.getElementById("quiz").innerHTML =
+        "<h2>🎉 Quiz Finished!</h2><h3>Your Score : "
+        + score + " / " + questions.length + "</h3>";
+    }
+
 }
