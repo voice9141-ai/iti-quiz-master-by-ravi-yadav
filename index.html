@@ -59,12 +59,18 @@
 <h1>Ravi Tech Academy</h1>
 
 <p>Electronics Mechanic MCQ Practice</p>
-
-<button onclick="startQuiz()">Practice MCQ</button>
+<button onclick="startQuiz()">🚀 Start Practice</button>
 <button>Mock Test</button>
 
 <button>Previous Year Paper</button>
+<div id="quiz" style="display:none; margin-top:20px;">
+    <h2 id="question"></h2>
 
+    <button onclick="checkAnswer('A')" id="A"></button>
+    <button onclick="checkAnswer('B')" id="B"></button>
+    <button onclick="checkAnswer('C')" id="C"></button>
+    <button onclick="checkAnswer('D')" id="D"></button>
+</div>
 </div>
 <script src="script.js"></script>
 </body>
