@@ -69,4 +69,5 @@ document.getElementById("quiz").innerHTML =
     "<h3>Grade : " + grade + "</h3>" +
     "<button onclick=\"location.reload()\">🔄 Play Again</button>";
         }
-    }
+    }, 1000);
+}
