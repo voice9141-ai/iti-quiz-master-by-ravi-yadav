@@ -19,7 +19,7 @@ createPalette();
     startTimer();
     showQuestion();
 }
-function startMockTest() {
+function startMockTest1() {
     currentQuestion = 0;
     score = 0;
 correctAnswers = 0;
