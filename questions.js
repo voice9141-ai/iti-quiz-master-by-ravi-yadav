@@ -1,4 +1,4 @@
-const questions = [
+let questions = [
   {
     question: "1. Which device converts AC to DC?",
     A: "Transformer",
