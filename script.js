@@ -63,7 +63,7 @@ function startMockTest3() {
     startTimer();
     showQuestion();
 }
-}
+
 function showQuestion() {
     const q = questions[currentQuestion];
 document.getElementById("progress").innerText =
