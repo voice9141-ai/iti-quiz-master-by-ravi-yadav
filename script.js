@@ -2,11 +2,16 @@ let currentQuestion = 0;
 let score = 0;
 let questions = [];
 let answeredQuestions = [];
+let timer;
+let timeLeft = 0;
+let correctAnswers = 0;
+let wrongAnswers = 0;
 
 function startQuiz() {
     currentQuestion = 0;
     score = 0;
-
+    let correctAnswers = 0;
+let wrongAnswers = 0;
     questions = [...practiceQuestions];
 answeredQuestions = new Array(questions.length).fill(false);
 createPalette();
@@ -17,7 +22,8 @@ createPalette();
 function startMockTest() {
     currentQuestion = 0;
     score = 0;
-
+correctAnswers = 0;
+wrongAnswers = 0;
     questions = [...mockQuestions];
 answeredQuestions = new Array(questions.length).fill(false);
 createPalette();
@@ -49,10 +55,13 @@ function checkAnswer(option) {
 
     if (option === questions[currentQuestion].answer) {
         score += 2;
+        correctAnswers++;
         answeredQuestions[currentQuestion] = true;
         document.getElementById("score").innerText = "Score: " + score;
         btn.style.background = "green";
     } else {
+        wrongAnswers++;
+answeredQuestions[currentQuestion] = true;
         btn.style.background = "red";
         document.getElementById(questions[currentQuestion].answer).style.background = "green";
     }
@@ -85,13 +94,17 @@ if (percentage >= 90) {
 } else {
     grade = "Fail ❌";
 }
-
+let skippedQuestions = questions.length - (correctAnswers + wrongAnswers);
 document.getElementById("quiz").innerHTML =
-    "<h2>🎉 Quiz Finished!</h2>" +
-    "<h3>Score : " + score + " / " + totalMarks + "</h3>" +
-    "<h3>Percentage : " + percentage.toFixed(0) + "%</h3>" +
-    "<h3>Grade : " + grade + "</h3>" +
-    "<button onclick=\"location.reload()\">🔄 Play Again</button>";
+"<h2>🎉 Quiz Finished!</h2>" +
+"<h3>✅ Correct Answers : " + correctAnswers + "</h3>" +
+"<h3>❌ Wrong Answers : " + wrongAnswers + "</h3>" +
+"<h3>⏭️ Skipped Questions : " + skippedQuestions + "</h3>" +
+"<hr>" +
+"<h3>🏆 Score : " + score + " / " + totalMarks + "</h3>" +
+"<h3>📊 Percentage : " + percentage.toFixed(0) + "%</h3>" +
+"<h3>⭐ Grade : " + grade + "</h3>" +
+"<button onclick=\"location.reload()\">🔄 Play Again</button>";
         }
     }, 1000);
 }
