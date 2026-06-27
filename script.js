@@ -102,15 +102,7 @@ function previousQuestion() {
     }
 }
 function createPalette() {
-    function goToQuestion(number){
-
-    currentQuestion = number;
-
-    showQuestion();
-
-    }
-
-    let palette = document.getElementById("palette");
+        let palette = document.getElementById("palette");
 
     palette.innerHTML = "";
 
@@ -120,4 +112,11 @@ function createPalette() {
         "<button id='p"+i+"' onclick='goToQuestion("+i+")'>" + (i+1) + "</button>";
 
     }
+}
+function goToQuestion(number){
+
+    currentQuestion = number;
+
+    showQuestion();
+
 }
