@@ -148,3 +148,38 @@ function updatePalette() {
     });
 
 }
+let timer;
+let timeLeft = 0;
+
+function startTimer() {
+    clearInterval(timer);
+
+    let minutes = Number(document.getElementById("timerSelect").value);
+
+    if (minutes === 0) {
+        document.getElementById("timer").innerText = "♾️ No Timer";
+        return;
+    }
+
+    timeLeft = minutes * 60;
+
+    timer = setInterval(function () {
+
+        let mins = Math.floor(timeLeft / 60);
+        let secs = timeLeft % 60;
+
+        document.getElementById("timer").innerText =
+            "⏱ Time Left: " +
+            String(mins).padStart(2, "0") + ":" +
+            String(secs).padStart(2, "0");
+
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            alert("⏰ Time Over!");
+            location.reload();
+        }
+
+        timeLeft--;
+
+    }, 1000);
+}
