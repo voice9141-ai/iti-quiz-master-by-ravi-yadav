@@ -39,3 +39,4 @@ function checkAnswer(option) {
        "<h2>🎉 Quiz Finished!</h2><h3>Your Score : "
 + score + " / " + (questions.length * 2) + "</h3>";
     }
+}
