@@ -85,3 +85,16 @@ document.getElementById("quiz").innerHTML =
         }
     }, 1000);
 }
+function nextQuestion() {
+    if (currentQuestion < questions.length - 1) {
+        currentQuestion++;
+        showQuestion();
+    }
+}
+
+function previousQuestion() {
+    if (currentQuestion > 0) {
+        currentQuestion--;
+        showQuestion();
+    }
+}
