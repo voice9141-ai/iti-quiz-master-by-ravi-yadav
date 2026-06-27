@@ -11,6 +11,7 @@ function startQuiz() {
 answeredQuestions = new Array(questions.length).fill(false);
 createPalette();
     document.getElementById("quiz").style.display = "block";
+    startTimer();
     showQuestion();
 }
 function startMockTest() {
@@ -21,6 +22,7 @@ function startMockTest() {
 answeredQuestions = new Array(questions.length).fill(false);
 createPalette();
     document.getElementById("quiz").style.display = "block";
+    startTimer();
     showQuestion();
 }
 function showQuestion() {
