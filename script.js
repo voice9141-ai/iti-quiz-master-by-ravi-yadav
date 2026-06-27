@@ -1,13 +1,15 @@
 let currentQuestion = 0;
 let score = 0;
 let questions = [];
+let answeredQuestions = [];
 
 function startQuiz() {
     currentQuestion = 0;
     score = 0;
 
     questions = [...practiceQuestions];
-
+answeredQuestions = new Array(questions.length).fill(false);
+createPalette();
     document.getElementById("quiz").style.display = "block";
     showQuestion();
 }
@@ -16,7 +18,8 @@ function startMockTest() {
     score = 0;
 
     questions = [...mockQuestions];
-
+answeredQuestions = new Array(questions.length).fill(false);
+createPalette();
     document.getElementById("quiz").style.display = "block";
     showQuestion();
 }
