@@ -10,8 +10,8 @@ let wrongAnswers = 0;
 function startQuiz() {
     currentQuestion = 0;
     score = 0;
-    let correctAnswers = 0;
-let wrongAnswers = 0;
+    correctAnswers = 0;
+    wrongAnswers = 0;
     questions = [...practiceQuestions];
 answeredQuestions = new Array(questions.length).fill(false);
 createPalette();
