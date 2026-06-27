@@ -274,9 +274,9 @@ const mockQuestions = [
 {
   question: "35. What is the conductivity percentage of electric current in Aluminium?",
   A: "22%",
-  B: "56%",
-  C: "94%",
-  D: "100%",
+  B: "47%",
+  C: "56%",
+  D: "76%",
   answer: "C"
 },
 {
