@@ -5,7 +5,15 @@ function startQuiz() {
     document.getElementById("quiz").style.display = "block";
     showQuestion();
 }
+function startMockTest() {
+    currentQuestion = 0;
+    score = 0;
 
+    questions = [...mockQuestions];
+
+    document.getElementById("quiz").style.display = "block";
+    showQuestion();
+}
 function showQuestion() {
     const q = questions[currentQuestion];
 document.getElementById("progress").innerText =
