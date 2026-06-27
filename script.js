@@ -71,3 +71,12 @@ document.getElementById("quiz").innerHTML =
         }
     }, 1000);
 }
+function startMockTest() {
+    currentQuestion = 0;
+    score = 0;
+
+    questions.sort(() => Math.random() - 0.5);
+
+    document.getElementById("quiz").style.display = "block";
+    showQuestion();
+}
