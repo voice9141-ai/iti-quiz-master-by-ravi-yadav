@@ -39,8 +39,11 @@ document.getElementById("score").innerText =
 }
 
 function checkAnswer(option) {
+    if (answeredQuestions[currentQuestion]) {
+    return;
+    }
 
-    let btn = document.getElementById(option);
+   let btn = document.getElementById(option);
 
     if (option === questions[currentQuestion].answer) {
         score += 2;
