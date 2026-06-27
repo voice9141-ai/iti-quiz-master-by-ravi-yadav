@@ -35,8 +35,10 @@ function checkAnswer(option) {
     if (currentQuestion < questions.length) {
         showQuestion();
     } else {
+        
         document.getElementById("quiz").innerHTML =
-       "<h2>🎉 Quiz Finished!</h2><h3>Your Score : "
-+ score + " / " + (questions.length * 2) + "</h3>";
+"<h2>🎉 Quiz Finished!</h2>" +
+"<h3>Your Score : " + score + " / " + (questions.length * 2) + "</h3>" +
+"<button onclick=\"location.reload()\">🔄 Play Again</button>";
     }
 }
