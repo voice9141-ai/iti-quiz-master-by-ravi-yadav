@@ -1,4 +1,4 @@
-const mockSet3Questions = [
+const mockQuestionsSet3 = [
 {
   question: "1. Which electrode controls the brightness of the image on the screen of oscilloscope?",
   A: "Anode",
