@@ -53,4 +53,3 @@ function checkAnswer(option) {
 
     }, 1000);
 }
-}
