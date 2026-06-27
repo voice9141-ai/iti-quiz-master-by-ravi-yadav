@@ -102,13 +102,23 @@ function previousQuestion() {
     }
 }
 function createPalette() {
-        let palette = document.getElementById("palette");
-
+    let palette = document.getElementById("palette");
     palette.innerHTML = "";
 
     for (let i = 0; i < questions.length; i++) {
+        let btn = document.createElement("button");
 
-        palette.innerHTML +=
-        "<button id='p"+i+"' onclick='goToQuestion("+i+")'>" + (i+1) + "</button>";
+        btn.innerText = i + 1;
+
+        btn.style.width = "40px";
+        btn.style.height = "40px";
+        btn.style.margin = "3px";
+
+        btn.onclick = function () {
+            currentQuestion = i;
+            showQuestion();
+        };
+
+        palette.appendChild(btn);
     }
 }
