@@ -45,11 +45,28 @@ function checkAnswer(option) {
         if (currentQuestion < questions.length) {
             showQuestion();
         } else {
-            document.getElementById("quiz").innerHTML =
-                "<h2>🎉 Quiz Finished!</h2>" +
-                "<h3>Your Score : " + score + " / " + (questions.length * 2) + "</h3>" +
-                "<button onclick=\"location.reload()\">🔄 Play Again</button>";
-        }
+            let totalMarks = questions.length * 2;
+let percentage = (score / totalMarks) * 100;
 
-    }, 1000);
+let grade = "";
+
+if (percentage >= 90) {
+    grade = "A+ 🏆";
+} else if (percentage >= 75) {
+    grade = "A ⭐";
+} else if (percentage >= 60) {
+    grade = "B 👍";
+} else if (percentage >= 40) {
+    grade = "C 🙂";
+} else {
+    grade = "Fail ❌";
 }
+
+document.getElementById("quiz").innerHTML =
+    "<h2>🎉 Quiz Finished!</h2>" +
+    "<h3>Score : " + score + " / " + totalMarks + "</h3>" +
+    "<h3>Percentage : " + percentage.toFixed(0) + "%</h3>" +
+    "<h3>Grade : " + grade + "</h3>" +
+    "<button onclick=\"location.reload()\">🔄 Play Again</button>";
+        }
+    }
