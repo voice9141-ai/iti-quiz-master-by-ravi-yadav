@@ -22,23 +22,35 @@ document.getElementById("score").innerText =
 
 function checkAnswer(option) {
 
+    let btn = document.getElementById(option);
+
     if (option === questions[currentQuestion].answer) {
         score += 2;
         document.getElementById("score").innerText = "Score: " + score;
-        alert("✅ Correct Answer");
+        btn.style.background = "green";
     } else {
-        alert("❌ Wrong Answer");
+        btn.style.background = "red";
+        document.getElementById(questions[currentQuestion].answer).style.background = "green";
     }
 
-    currentQuestion++;
+    setTimeout(function () {
 
-    if (currentQuestion < questions.length) {
-        showQuestion();
-    } else {
-        
-        document.getElementById("quiz").innerHTML =
-"<h2>🎉 Quiz Finished!</h2>" +
-"<h3>Your Score : " + score + " / " + (questions.length * 2) + "</h3>" +
-"<button onclick=\"location.reload()\">🔄 Play Again</button>";
-    }
+        document.getElementById("A").style.background = "";
+        document.getElementById("B").style.background = "";
+        document.getElementById("C").style.background = "";
+        document.getElementById("D").style.background = "";
+
+        currentQuestion++;
+
+        if (currentQuestion < questions.length) {
+            showQuestion();
+        } else {
+            document.getElementById("quiz").innerHTML =
+                "<h2>🎉 Quiz Finished!</h2>" +
+                "<h3>Your Score : " + score + " / " + (questions.length * 2) + "</h3>" +
+                "<button onclick=\"location.reload()\">🔄 Play Again</button>";
+        }
+
+    }, 1000);
+}
 }
