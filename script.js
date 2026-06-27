@@ -110,13 +110,5 @@ function createPalette() {
 
         palette.innerHTML +=
         "<button id='p"+i+"' onclick='goToQuestion("+i+")'>" + (i+1) + "</button>";
-
     }
-}
-function goToQuestion(number){
-
-    currentQuestion = number;
-
-    showQuestion();
-
 }
