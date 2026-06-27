@@ -30,6 +30,37 @@ createPalette();
     document.getElementById("quiz").style.display = "block";
     startTimer();
     showQuestion();
+    function startMockTest2() {
+
+    currentQuestion = 0;
+    score = 0;
+    correctAnswers = 0;
+    wrongAnswers = 0;
+
+    questions = [...mockQuestionsSet2];
+    answeredQuestions = new Array(questions.length).fill(false);
+
+    createPalette();
+    document.getElementById("quiz").style.display = "block";
+    startTimer();
+    showQuestion();
+}
+
+function startMockTest3() {
+
+    currentQuestion = 0;
+    score = 0;
+    correctAnswers = 0;
+    wrongAnswers = 0;
+
+    questions = [...mockQuestionsSet3];
+    answeredQuestions = new Array(questions.length).fill(false);
+
+    createPalette();
+    document.getElementById("quiz").style.display = "block";
+    startTimer();
+    showQuestion();
+}
 }
 function showQuestion() {
     const q = questions[currentQuestion];
