@@ -161,8 +161,6 @@ function updatePalette() {
     });
 
 }
-let timer;
-let timeLeft = 0;
 
 function startTimer() {
     clearInterval(timer);
