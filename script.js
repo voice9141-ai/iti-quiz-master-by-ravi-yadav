@@ -30,7 +30,8 @@ createPalette();
     document.getElementById("quiz").style.display = "block";
     startTimer();
     showQuestion();
-    function startMockTest2() {
+
+function startMockTest2() {
 
     currentQuestion = 0;
     score = 0;
