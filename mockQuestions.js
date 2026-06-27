@@ -79,7 +79,7 @@ const mockQuestions = [
   D: "Blow horn stake",
   answer: "D"
 },
-  {
+{
   question: "11. Which tool is used to measure the outside diameter of a wire?",
   A: "Steel rule",
   B: "Outside micrometer",
