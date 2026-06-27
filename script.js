@@ -30,6 +30,7 @@ createPalette();
     document.getElementById("quiz").style.display = "block";
     startTimer();
     showQuestion();
+}
 
 function startMockTest2() {
 
