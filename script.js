@@ -35,6 +35,7 @@ document.getElementById("score").innerText =
     document.getElementById("B").innerText = q.B;
     document.getElementById("C").innerText = q.C;
     document.getElementById("D").innerText = q.D;
+    updatePalette();
 }
 
 function checkAnswer(option) {
@@ -43,6 +44,7 @@ function checkAnswer(option) {
 
     if (option === questions[currentQuestion].answer) {
         score += 2;
+        answeredQuestions[currentQuestion] = true;
         document.getElementById("score").innerText = "Score: " + score;
         btn.style.background = "green";
     } else {
@@ -121,4 +123,23 @@ function createPalette() {
 
         palette.appendChild(btn);
     }
+}
+function updatePalette() {
+
+    let buttons = document.querySelectorAll("#palette button");
+
+    buttons.forEach((btn, index) => {
+
+        if (index === currentQuestion) {
+            btn.style.background = "red";
+        }
+        else if (answeredQuestions[index]) {
+            btn.style.background = "green";
+        }
+        else {
+            btn.style.background = "#666";
+        }
+
+    });
+
 }
