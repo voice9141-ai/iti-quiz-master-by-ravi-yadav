@@ -101,3 +101,23 @@ function previousQuestion() {
         showQuestion();
     }
 }
+function createPalette() {
+    function goToQuestion(number){
+
+    currentQuestion = number;
+
+    showQuestion();
+
+    }
+
+    let palette = document.getElementById("palette");
+
+    palette.innerHTML = "";
+
+    for (let i = 0; i < questions.length; i++) {
+
+        palette.innerHTML +=
+        "<button id='p"+i+"' onclick='goToQuestion("+i+")'>" + (i+1) + "</button>";
+
+    }
+}
