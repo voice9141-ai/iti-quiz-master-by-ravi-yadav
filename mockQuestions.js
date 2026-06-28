@@ -194,11 +194,11 @@ const mockQuestions = [
   answer: "A"
 },
 {
-  question: "25. Which material is a good conductor of electricity?",
-  A: "Rubber",
-  B: "Plastic",
-  C: "Silver",
-  D: "Wood",
+  question: "25. What is the specified Vcc voltage of 4 bit digital switch with 4 independent lines?",
+  A: "1.5 V to 2.2 V",
+  B: "2.3 V to 3.6 V",
+  C: "4.5 V to 5.5 V",
+  D: "6.0 V to 7.5 V",
   answer: "C"
 },
 {
