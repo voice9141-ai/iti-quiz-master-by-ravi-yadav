@@ -298,27 +298,29 @@ const mockQuestions = [
   answer: "C"
 },
 {
-  question: "38. Which material is the best insulator?",
-  A: "Mica",
-  B: "Copper",
-  C: "Iron",
-  D: "Aluminium",
+  question: "38. What is the name of the instrument used to measure electrical quantities?",
+  A: "Meter",
+  B: "Tester",
+  C: "Micrometer",
+  D: "Vernier caliper",
   answer: "A"
 },
+
 {
-  question: "39. Which law states the relationship between voltage, current and resistance?",
-  A: "Kirchhoff's Law",
-  B: "Faraday's Law",
-  C: "Ohm's Law",
-  D: "Lenz's Law",
-  answer: "C"
+  question: "39. What are the two classifications of system of units?",
+  A: "British and Metric",
+  B: "Gravitational and non-gravitational",
+  C: "Fundamental and derived",
+  D: "Metric and International",
+  answer: "A"
 },
+
 {
-  question: "40. What is the SI unit of resistance?",
-  A: "Volt",
-  B: "Ohm",
-  C: "Ampere",
-  D: "Watt",
+  question: "40. What are fundamental units?",
+  A: "Length, Mass, Volume",
+  B: "Length, Mass, Time",
+  C: "Length, Mass, Area",
+  D: "Length, Pressure, Volume",
   answer: "B"
 },
 {
