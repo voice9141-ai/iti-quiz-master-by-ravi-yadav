@@ -250,11 +250,11 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "32. Which material is used as insulation in electrical wires?",
-  A: "Copper",
-  B: "Aluminium",
-  C: "Iron",
-  D: "PVC",
+  question: "32. Which materials are used for semiconductor?",
+  A: "Gallium and Indium",
+  B: "Silver and Aluminium",
+  C: "Arsenic and Antimony",
+  D: "Silicon and Germanium",
   answer: "D"
 },
 {
@@ -282,11 +282,11 @@ const mockQuestions = [
   answer: "C"
 },
 {
-  question: "36. Which material is commonly used for electrical conductors?",
-  A: "Rubber",
-  B: "Glass",
-  C: "Plastic",
-  D: "Copper",
+  question: "36. Which tool is used to measure the size of a wire?",
+  A: "Try square",
+  B: "Steel rule",
+  C: "Feeler gauge",
+  D: "Standard wire gauge",
   answer: "D"
 },
 {
