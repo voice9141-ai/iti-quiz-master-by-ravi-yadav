@@ -97,6 +97,7 @@ const mockQuestions = [
 },
 {
   question: "13. Which instrument is used to measure very small diameters accurately?",
+  image: "images/q13.png",
   A: "Steel rule",
   B: "Vernier caliper",
   C: "Micrometer",
@@ -113,6 +114,7 @@ const mockQuestions = [
 },
 {
   question: "15. Which file is used for sharpening saw teeth?",
+  image: "images/q15.png",
   A: "Flat file",
   B: "Round file",
   C: "Triangular file",
@@ -353,6 +355,7 @@ const mockQuestions = [
 },
 {
   question: "45. Identify the conventional symbol of material.",
+  image: "images/q45.png",
   A: "Water",
   B: "Concrete",
   C: "Asbestos",
@@ -361,6 +364,7 @@ const mockQuestions = [
 },
 {
   question: "46. Identify the conventional symbol of material.",
+ image: "images/q46.png", 
   A: "Lead",
   B: "Copper",
   C: "Steel",
@@ -369,6 +373,7 @@ const mockQuestions = [
 },
 {
   question: "47. Identify the name of instrument.",
+  image: "images/q47.png",
   A: "Set square",
   B: "Protractor",
   C: "French curve",
@@ -377,6 +382,7 @@ const mockQuestions = [
 },
 {
   question: "48. Identify the name of set square.",
+  image: "images/q48.png",
   A: "15° set square",
   B: "60° set square",
   C: "30° set square",
@@ -393,6 +399,7 @@ const mockQuestions = [
 },
 {
   question: "50. Which title block position is correct as standard practice?",
+  image: "images/q50.png",
   A: "Bottom right corner",
   B: "Top left corner",
   C: "Top right corner",
