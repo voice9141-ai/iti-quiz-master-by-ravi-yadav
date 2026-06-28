@@ -290,11 +290,11 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "37. Which material has high electrical conductivity?",
-  A: "Wood",
-  B: "Rubber",
+  question: "37. Which metal has very good conductivity of electric current?",
+  A: "Gold",
+  B: "Copper",
   C: "Silver",
-  D: "Plastic",
+  D: "Aluminium",
   answer: "C"
 },
 {
