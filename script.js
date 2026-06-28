@@ -2,6 +2,7 @@ let currentQuestion = 0;
 let score = 0;
 let questions = [];
 let answeredQuestions = [];
+let shuffledOptions = [];
 let timer;
 let timeLeft = 0;
 let correctAnswers = 0;
@@ -63,9 +64,25 @@ function startMockTest3() {
     startTimer();
     showQuestion();
 }
+function shuffleOptions(q) {
 
+    shuffledOptions = [
+        { key: "A", text: q.A },
+        { key: "B", text: q.B },
+        { key: "C", text: q.C },
+        { key: "D", text: q.D }
+    ];
+
+    for (let i = shuffledOptions.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [shuffledOptions[i], shuffledOptions[j]] =
+        [shuffledOptions[j], shuffledOptions[i]];
+    }
+
+}
 function showQuestion() {
     const q = questions[currentQuestion];
+    shuffleOptions(q);
 document.getElementById("progress").innerText =
 "Question " + (currentQuestion + 1) + "/" + questions.length;
 
@@ -80,10 +97,10 @@ if (q.image) {
 } else {
     img.style.display = "none";
 }
-    document.getElementById("A").innerText = q.A;
-    document.getElementById("B").innerText = q.B;
-    document.getElementById("C").innerText = q.C;
-    document.getElementById("D").innerText = q.D;
+    document.getElementById("A").innerText = shuffledOptions[0].text;
+document.getElementById("B").innerText = shuffledOptions[1].text;
+document.getElementById("C").innerText = shuffledOptions[2].text;
+document.getElementById("D").innerText = shuffledOptions[3].text;
     updatePalette();
 }
 
@@ -93,8 +110,10 @@ function checkAnswer(option) {
     }
 
    let btn = document.getElementById(option);
+    const index = { A: 0, B: 1, C: 2, D: 3 }[option];
+let selected = shuffledOptions[index];
 
-    if (option === questions[currentQuestion].answer) {
+    if (selected.key === questions[currentQuestion].answer) {
         score += 2;
         correctAnswers++;
         answeredQuestions[currentQuestion] = true;
@@ -104,8 +123,13 @@ function checkAnswer(option) {
         wrongAnswers++;
 answeredQuestions[currentQuestion] = true;
         btn.style.background = "red";
-        document.getElementById(questions[currentQuestion].answer).style.background = "green";
+        for (let i = 0; i < shuffledOptions.length; i++) {
+    if (shuffledOptions[i].key === questions[currentQuestion].answer) {
+        let id = ["A", "B", "C", "D"][i];
+        document.getElementById(id).style.background = "green";
+        break;
     }
+        }
 
     setTimeout(function () {
 
