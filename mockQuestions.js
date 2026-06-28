@@ -80,12 +80,12 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "11. Which tool is used to measure the outside diameter of a wire?",
-  A: "Steel rule",
-  B: "Outside micrometer",
-  C: "Try square",
-  D: "Divider",
-  answer: "B"
+  question: "11. Which angle can be checked using try square?",
+  A: "45°",
+  B: "60°",
+  C: "75°",
+  D: "90°",
+  answer: "D"
 },
 {
   question: "12. Which tool is used to check the squareness of a job?",
