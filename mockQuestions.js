@@ -210,11 +210,11 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "27. One coulomb of charge contains how many electrons?",
-  A: "6.25 × 10⁶",
-  B: "6.25 × 10¹²",
-  C: "6.25 × 10¹⁶",
-  D: "6.25 × 10¹⁸",
+  question: "27. How many electrons are contained in one coulomb of electric charge?",
+  A: "6.25 × 10⁸ electrons",
+  B: "6.25 × 10¹² electrons",
+  C: "6.25 × 10¹⁶ electrons",
+  D: "6.25 × 10¹⁸ electrons",
   answer: "D"
 },
 {
