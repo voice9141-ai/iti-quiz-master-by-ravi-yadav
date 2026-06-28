@@ -33,6 +33,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "5. What is the value of each division marked by numbers on the voltmeter shown in the figure?",
+  image: "images/set2/q5.png",
   A: "1 V",
   B: "2 V",
   C: "4 V",
@@ -49,6 +50,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "7. What symbol on the meter indicates the measurement of voltage for both AC and DC?",
+  image: "images/set2/q7.png",
   A: "Symbol 1",
   B: "Symbol 2",
   C: "AC/DC Voltage Symbol",
@@ -105,6 +107,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "14. What is the symbol for moving iron type measuring instrument?",
+  image: "images/set2/q14.png",
   A: "Symbol 1",
   B: "Symbol 2",
   C: "Symbol 3",
@@ -273,6 +276,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "35. What is the name of the symbol marked as 'X' in the panel meter shown in the figure?",
+  image: "images/set2/q35.png",
   A: "Moving coil meter",
   B: "Moving iron meter",
   C: "Hot wire instrument",
@@ -353,6 +357,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "45. Identify the conventional symbol of material.",
+  image: "images/set2/q45.png",
   A: "Lead",
   B: "Steel",
   C: "Glass",
@@ -361,6 +366,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "46. Identify the conventional symbol of material.",
+  image: "images/set2/q46.png",
   A: "Concrete",
   B: "Steel",
   C: "Wood",
@@ -369,6 +375,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "47. Identify the conventional symbol of material.",
+  image: "images/set2/q47.png",
   A: "Steel",
   B: "Wood",
   C: "Glass",
@@ -385,6 +392,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "49. Which drawing dimension is correct as per IS standard?",
+  image: "images/set2/q49.png",
   A: "Option shown in Figure A",
   B: "Option shown in Figure B",
   C: "Option shown in Figure C",
@@ -393,6 +401,7 @@ const mockQuestionsSet2 = [
 },
 {
   question: "50. Identify the name of prism?",
+  image: "images/set2/q50.png",
   A: "Square prism",
   B: "Pentagonal prism",
   C: "Triangular prism",
