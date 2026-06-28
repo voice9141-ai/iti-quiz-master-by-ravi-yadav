@@ -122,35 +122,35 @@ const mockQuestions = [
   answer: "C"
 },
 {
-  question: "16. Which hammer is generally used in sheet metal work?",
-  A: "Ball peen hammer",
-  B: "Cross peen hammer",
-  C: "Straight peen hammer",
-  D: "Wooden mallet",
-  answer: "D"
-},
-{
-  question: "17. Which snip is used for cutting straight lines?",
-  A: "Straight snip",
-  B: "Curved snip",
-  C: "Bent snip",
-  D: "Circular snip",
-  answer: "A"
-},
-{
-  question: "18. Which gauge is used for measuring wire diameter?",
-  A: "Screw pitch gauge",
-  B: "Wire gauge",
-  C: "Radius gauge",
-  D: "Feeler gauge",
+  question: "16. What is the shape of prohibition sign?",
+  A: "Square",
+  B: "Circular",
+  C: "Triangular",
+  D: "Rectangular",
   answer: "B"
 },
 {
-  question: "19. Which tool is used for removing burrs?",
-  A: "Reamer",
-  B: "Scraper",
-  C: "Chisel",
-  D: "Punch",
+  question: "17. What is the purpose of scriber in metal sheet?",
+  A: "For bending",
+  B: "For cutting",
+  C: "For marking",
+  D: "For joining",
+  answer: "C"
+},
+{
+  question: "18. Which protective equipment stands for PPE 1 as per the BIS?",
+  A: "Helmet",
+  B: "Safety footwear",
+  C: "Ear protection",
+  D: "Arm hand protection",
+  answer: "A"
+},
+{
+  question: "19. What is the Electrical conductivity of gold?",
+  A: "22%",
+  B: "47%",
+  C: "70%",
+  D: "76%",
   answer: "B"
 },
 {
