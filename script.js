@@ -72,6 +72,14 @@ document.getElementById("progress").innerText =
 document.getElementById("score").innerText =
 "Score: " + score;
     document.getElementById("question").innerText = q.question;
+    let img = document.getElementById("questionImage");
+
+if (q.image) {
+    img.src = q.image;
+    img.style.display = "block";
+} else {
+    img.style.display = "none";
+}
     document.getElementById("A").innerText = q.A;
     document.getElementById("B").innerText = q.B;
     document.getElementById("C").innerText = q.C;
