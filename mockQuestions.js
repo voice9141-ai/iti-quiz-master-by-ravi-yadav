@@ -96,13 +96,13 @@ const mockQuestions = [
   answer: "B"
 },
 {
-  question: "13. Which instrument is used to measure very small diameters accurately?",
+  question: "13. What is indicated by the arrow marked as 'x' in the sawing operation shown in the figure?",
   image: "images/q13.png",
-  A: "Steel rule",
-  B: "Vernier caliper",
-  C: "Micrometer",
-  D: "Divider",
-  answer: "C"
+  A: "Direction of cut",
+  B: "Direction of pressure",
+  C: "Reversed position of blade",
+  D: "Direction of motion of blade",
+  answer: "B"
 },
 {
   question: "14. Which tool is used for marking circles on sheet metal?",
