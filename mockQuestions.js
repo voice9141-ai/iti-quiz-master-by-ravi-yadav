@@ -202,12 +202,12 @@ const mockQuestions = [
   answer: "C"
 },
 {
-  question: "26. What is the unit of electrical resistance?",
-  A: "Ohm",
-  B: "Volt",
-  C: "Ampere",
-  D: "Watt",
-  answer: "A"
+  question: "26. Which formula is used to calculate conductance?",
+  A: "Q / V",
+  B: "I × R",
+  C: "V / I",
+  D: "I / V",
+  answer: "D"
 },
 {
   question: "27. One coulomb of charge contains how many electrons?",
