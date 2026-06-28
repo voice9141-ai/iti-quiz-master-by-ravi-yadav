@@ -88,12 +88,12 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "12. Which tool is used to check the squareness of a job?",
-  A: "Steel rule",
-  B: "Try square",
-  C: "Divider",
-  D: "Outside caliper",
-  answer: "B"
+  question: "12. What is the maximum size of drill bit used in electrical hand drilling machine?",
+  A: "0.35 mm",
+  B: "1.5 mm",
+  C: "3.5 mm",
+  D: "6.5 mm",
+  answer: "D"
 },
 {
   question: "13. What is indicated by the arrow marked as 'x' in the sawing operation shown in the figure?",
