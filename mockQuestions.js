@@ -113,12 +113,12 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "15. Which file is used for sharpening saw teeth?",
+  question: "15. Identify the name of the tool shown in the figure?",
   image: "images/q15.png",
-  A: "Flat file",
-  B: "Round file",
-  C: "Triangular file",
-  D: "Half round file",
+  A: "Hammer",
+  B: "Scriber",
+  C: "Centre punch",
+  D: "Tweezer",
   answer: "C"
 },
 {
