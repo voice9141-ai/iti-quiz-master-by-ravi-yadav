@@ -154,12 +154,12 @@ const mockQuestions = [
   answer: "B"
 },
 {
-  question: "20. Which tool is used to make small indentations before drilling?",
-  A: "Centre punch",
-  B: "Pin punch",
-  C: "Drift punch",
-  D: "Letter punch",
-  answer: "A"  
+  question: "20. What is the unit of electric charge?",
+  A: "Volt",
+  B: "Hertz",
+  C: "Ampere",
+  D: "Coulomb",
+  answer: "D"
 },
 {
   question: "21. What is stationary electric charges?",
