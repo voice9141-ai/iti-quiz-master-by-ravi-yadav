@@ -147,10 +147,10 @@ const mockQuestions = [
 },
 {
   question: "19. What is the Electrical conductivity of gold?",
-  A: "22%",
-  B: "47%",
-  C: "70%",
-  D: "76%",
+  A: "52%",
+  B: "67%",
+  C: "97%",
+  D: "100%",
   answer: "B"
 },
 {
