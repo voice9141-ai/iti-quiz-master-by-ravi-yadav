@@ -73,6 +73,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "10. Which measuring instrument has the movement shown in the figure?",
+  image: "images/set3/q10.png",
   A: "Moving coil instrument",
   B: "Attraction type MI meter",
   C: "Repulsion type MI meter",
@@ -81,6 +82,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "11. Which position is the moving coil meter kept for measurements shown in the figure?",
+  image: "images/set3/q11.png",
   A: "Vertical",
   B: "Horizontal",
   C: "Inclined by 45°",
@@ -233,6 +235,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "30. What is the name of the circuit shown in the figure?",
+  image: "images/set3/q30.png",
   A: "Astable multivibrator",
   B: "Bistable multivibrator",
   C: "RC coupled amplifier",
@@ -249,6 +252,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "32. What is the name of the circuit built with IC 8038 shown in the figure?",
+  image: "images/set3/q32.png",
   A: "Pulse generator",
   B: "Sine wave generator",
   C: "Square wave generator",
@@ -273,6 +277,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "35. What is the name of the waveform displayed on the DSO screen shown in the figure?",
+  image: "images/set3/q35.png",
   A: "DC waveform",
   B: "Pulse waveform",
   C: "Ringing waveform",
@@ -353,6 +358,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "45. Identify the name of tool?",
+  image: "images/set3/q45.png",
   A: "Try square",
   B: "Surface gauge",
   C: "Steel rule",
@@ -361,6 +367,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "46. Identify the name of tool?",
+  image: "images/set3/q46.png",
   A: "Ball pein hammer",
   B: "Cross pein hammer",
   C: "Straight pein hammer",
@@ -369,6 +376,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "47. Identify the name of tool?",
+  image: "images/set3/q47.png",
   A: "Hawk-billed shear",
   B: "Aviation shear",
   C: "Cutting plier",
@@ -377,6 +385,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "48. Identify the name of tool?",
+  image: "images/set3/q48.png",
   A: "Ball pein hammer",
   B: "Mallet",
   C: "Cross pein hammer",
@@ -385,6 +394,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "49. Identify the name of tool?",
+  image: "images/set3/q49.png",
   A: "Open end spanner",
   B: "Ring spanner",
   C: "Combination spanner",
@@ -393,6 +403,7 @@ const mockQuestionsSet3 = [
 },
 {
   question: "50. Which dimension correctly marked in the circle as per standard?",
+  image: "images/set3/q50.png",
   A: "Figure A",
   B: "Figure B",
   C: "Figure C",
