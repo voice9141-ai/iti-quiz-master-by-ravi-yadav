@@ -186,11 +186,11 @@ const mockQuestions = [
   answer: "D"
 },
 {
-  question: "24. Which material is used as an insulator?",
-  A: "Rubber",
-  B: "Copper",
-  C: "Aluminium",
-  D: "Iron",
+  question: "24. What is the name of the motion of charged particles in any medium?",
+  A: "Current",
+  B: "Voltage",
+  C: "Resistance",
+  D: "Frequency",
   answer: "A"
 },
 {
