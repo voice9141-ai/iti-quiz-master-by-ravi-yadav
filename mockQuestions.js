@@ -370,10 +370,10 @@ const mockQuestions = [
   question: "46. Identify the conventional symbol of material.",
  image: "images/q46.png", 
   A: "Lead",
-  B: "Copper",
+  B: "Wood",
   C: "Steel",
   D: "Aluminium",
-  answer: "C"
+  answer: "B"
 },
 {
   question: "47. Identify the name of instrument.",
