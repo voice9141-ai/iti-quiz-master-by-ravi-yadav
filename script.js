@@ -127,9 +127,10 @@ answeredQuestions[currentQuestion] = true;
     if (shuffledOptions[i].key === questions[currentQuestion].answer) {
         let id = ["A", "B", "C", "D"][i];
         document.getElementById(id).style.background = "green";
-        break;
+       break;
     }
-        }
+  }
+}
 
     setTimeout(function () {
 
