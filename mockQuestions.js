@@ -324,27 +324,29 @@ const mockQuestions = [
   answer: "B"
 },
 {
-  question: "41. What is the SI unit of power?",
-  A: "Volt",
-  B: "Watt",
-  C: "Ohm",
-  D: "Ampere",
+  question: "41. What denotes letter 'M' in MKS system?",
+  A: "Mile",
+  B: "Meter",
+  C: "Millimeter",
+  D: "Micron",
   answer: "B"
 },
+
 {
-  question: "42. Which instrument is used to measure electric current?",
-  A: "Voltmeter",
-  B: "Ammeter",
-  C: "Wattmeter",
-  D: "Megger",
+  question: "42. How many millimetres are there in 1 inch?",
+  A: "2.54 mm",
+  B: "25.4 mm",
+  C: "24.5 mm",
+  D: "2.45 mm",
   answer: "B"
 },
+
 {
-  question: "43. Which instrument is used to measure voltage?",
-  A: "Ammeter",
-  B: "Voltmeter",
-  C: "Frequency meter",
-  D: "Energy meter",
+  question: "43. What is the square root of 529?",
+  A: "13",
+  B: "23",
+  C: "33",
+  D: "43",
   answer: "B"
 },
 {
