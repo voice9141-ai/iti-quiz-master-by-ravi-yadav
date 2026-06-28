@@ -105,12 +105,12 @@ const mockQuestions = [
   answer: "B"
 },
 {
-  question: "14. Which tool is used for marking circles on sheet metal?",
-  A: "Try square",
-  B: "Divider",
-  C: "Outside caliper",
-  D: "Steel rule",
-  answer: "B"
+  question: "14. What is the name of the PPE used for high noise level?",
+  A: "Helmet",
+  B: "Safety boot",
+  C: "Hand screen",
+  D: "Ear muff",
+  answer: "D"
 },
 {
   question: "15. Which file is used for sharpening saw teeth?",
