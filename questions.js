@@ -4001,5 +4001,5 @@ C:"Electronics Mechanic",
 D:"Welder",
 answer:"C"
 }
-]
+];
 
