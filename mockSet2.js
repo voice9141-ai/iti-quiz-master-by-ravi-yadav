@@ -53,7 +53,7 @@ const mockQuestionsSet2 = [
   image: "images/set2/q7.png",
   A: "Symbol 1",
   B: "Symbol 2",
-  C: "AC/DC Voltage Symbol",
+  C: "Symbol 3",
   D: "Symbol 4",
   answer: "C"
 },
@@ -111,7 +111,7 @@ const mockQuestionsSet2 = [
   A: "Symbol 1",
   B: "Symbol 2",
   C: "Symbol 3",
-  D: "Moving Iron Symbol",
+  D: "Symbol 4",
   answer: "D"
 },
 {
