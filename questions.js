@@ -8,7 +8,6 @@ C:"Ohm",
 D:"Watt",
 answer:"B"
 },
-
 {
 question:"2. What is the SI unit of resistance?",
 A:"Volt",
@@ -17,7 +16,6 @@ C:"Ohm",
 D:"Watt",
 answer:"C"
 },
-
 {
 question:"3. What is the SI unit of voltage?",
 A:"Volt",
@@ -26,7 +24,6 @@ C:"Ohm",
 D:"Watt",
 answer:"A"
 },
-
 {
 question:"4. Which instrument is used to measure electric current?",
 A:"Voltmeter",
@@ -35,7 +32,6 @@ C:"Megger",
 D:"Wattmeter",
 answer:"B"
 },
-
 {
 question:"5. Which instrument is used to measure voltage?",
 A:"Ammeter",
@@ -44,7 +40,6 @@ C:"Voltmeter",
 D:"Megger",
 answer:"C"
 },
-
 {
 question:"6. Which law states V = I × R?",
 A:"Kirchhoff's Law",
@@ -53,7 +48,6 @@ C:"Ohm's Law",
 D:"Lenz's Law",
 answer:"C"
 },
-
 {
 question:"7. What is the unit of electrical power?",
 A:"Volt",
@@ -62,7 +56,6 @@ C:"Ampere",
 D:"Ohm",
 answer:"B"
 },
-
 {
 question:"8. What is the formula for electrical power?",
 A:"P = VI",
@@ -71,7 +64,6 @@ C:"P = V/R",
 D:"P = I/R",
 answer:"A"
 },
-
 {
 question:"9. Which material is the best conductor?",
 A:"Copper",
@@ -80,7 +72,6 @@ C:"Rubber",
 D:"Wood",
 answer:"A"
 },
-
 {
 question:"10. Which material is an insulator?",
 A:"Copper",
@@ -89,7 +80,6 @@ C:"Rubber",
 D:"Silver",
 answer:"C"
 },
-
 {
 question:"11. What is the frequency of AC supply in India?",
 A:"25 Hz",
@@ -98,7 +88,6 @@ C:"50 Hz",
 D:"60 Hz",
 answer:"C"
 },
-
 {
 question:"12. What is the domestic supply voltage in India?",
 A:"110 V",
@@ -107,7 +96,6 @@ C:"230 V",
 D:"440 V",
 answer:"C"
 },
-
 {
 question:"13. Which current changes its direction periodically?",
 A:"DC",
@@ -116,7 +104,6 @@ C:"Pulse DC",
 D:"Both",
 answer:"B"
 },
-
 {
 question:"14. Which current flows only in one direction?",
 A:"AC",
@@ -125,7 +112,6 @@ C:"Three Phase",
 D:"Alternating Pulse",
 answer:"B"
 },
-
 {
 question:"15. Which connection increases voltage?",
 A:"Parallel",
@@ -134,7 +120,6 @@ C:"Star",
 D:"Delta",
 answer:"B"
 },
-
 {
 question:"16. Which connection increases current capacity?",
 A:"Series",
@@ -143,7 +128,6 @@ C:"Delta",
 D:"Star",
 answer:"B"
 },
-
 {
 question:"17. Which device protects against excess current?",
 A:"Fuse",
@@ -152,7 +136,6 @@ C:"Resistor",
 D:"Capacitor",
 answer:"A"
 },
-
 {
 question:"18. Which wire is used for earthing?",
 A:"Red",
@@ -161,7 +144,6 @@ C:"Green",
 D:"Blue",
 answer:"C"
 },
-
 {
 question:"19. What is the unit of electrical energy?",
 A:"Joule",
@@ -170,7 +152,6 @@ C:"kWh",
 D:"Volt",
 answer:"C"
 },
-
 {
 question:"20. What is the full form of MCB?",
 A:"Mini Circuit Breaker",
@@ -179,7 +160,6 @@ C:"Mini Control Board",
 D:"Main Current Breaker",
 answer:"A"
 },
-
 {
 question:"21. What is the purpose of earthing?",
 A:"Increase voltage",
@@ -188,7 +168,6 @@ C:"Protect against electric shock",
 D:"Increase resistance",
 answer:"C"
 },
-
 {
 question:"22. Which battery is rechargeable?",
 A:"Dry Cell",
@@ -197,7 +176,6 @@ C:"Primary Cell",
 D:"Button Cell",
 answer:"B"
 },
-
 {
 question:"23. Which electrical quantity is measured in Ohm?",
 A:"Current",
@@ -206,7 +184,6 @@ C:"Resistance",
 D:"Power",
 answer:"C"
 },
-
 {
 question:"24. What is the SI unit of frequency?",
 A:"Henry",
@@ -215,7 +192,6 @@ C:"Farad",
 D:"Tesla",
 answer:"B"
 },
-
 {
 question:"25. Which instrument measures insulation resistance?",
 A:"Multimeter",
