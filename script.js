@@ -263,7 +263,8 @@ function startTimer() {
 function showAbout() {
     alert(
         "👨‍💻 Ravi Tech Academy\n\n" +
-        "Designed by R. Yadav\ 0x41✨\n\n" +
+        "Designed by R. Yadav\n\n" +
+        "Sp 0x41✨\n\n" +
         "Built for Electronics Mechanic Students."
     );
 }
