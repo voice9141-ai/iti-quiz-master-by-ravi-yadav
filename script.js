@@ -81,6 +81,16 @@ function shuffleOptions(q) {
 
 }
 function showQuestion() {
+    const palette = document.getElementById("palette");
+
+const activeButton = palette.children[currentQuestion];
+
+if (activeButton) {
+    activeButton.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+}
     const q = questions[currentQuestion];
     shuffleOptions(q);
 document.getElementById("progress").innerText =
